@@ -13,7 +13,7 @@ export default class SimpleGame extends PureComponent {
           //-- Notice that each entity has a unique id (required)
           //-- and a renderer property (optional). If no renderer
           //-- is supplied with the entity - it won't get displayed.
-          box1: { x: 200,  y: 200, renderer: <Domino />}
+          box1: { x: 100,  y: 50, renderer: <Domino />}
         }}>
 
       </GameEngine>

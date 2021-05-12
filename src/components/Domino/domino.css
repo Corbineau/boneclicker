@@ -1,0 +1,41 @@
+.dragme {
+    cursor: move;
+  }
+
+.bone {
+    position:relative;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    min-height: 100px;
+    min-width: 50px;
+    margin: 2px;
+    padding: 1px;
+    float: left;
+    background-color: white;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.bottom {
+    display: block;
+    padding:23px 15px;
+    border-top: 1px solid black;
+}
+
+.top {
+    display: block;
+    padding:23px 15px;
+    border-bottom: 1px solid black;
+}
+
+.rotated {
+    -webkit-transform : rotate(180deg); 
+    -moz-transform : rotate(180deg); 
+    -ms-transform : rotate(180deg); 
+    -o-transform : rotate(180deg); 
+    transform : rotate(180deg); 
+
+}
