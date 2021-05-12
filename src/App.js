@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import SimpleGame from './components/game';
+import SimpleGame from './components/Game';
 
 function App() {
   return (
